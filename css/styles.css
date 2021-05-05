@@ -17,7 +17,7 @@ body {
   .navbar-brand h1 { /* Restaurant name */
     font-family: 'Lora', serif;
     color: black;
-    font-size: 1.5em;
+    font-size: 2em;
     text-transform: uppercase;
     font-weight: bold;
     margin-top: 0;
@@ -30,11 +30,11 @@ body {
   #nav-list {
     margin-top: 10px;
   }
-  #nav-list p {
+  #nav-list a {
     color: #951C49;
     text-align: center;
   }
-  #nav-list p:hover {
+  #nav-list a:hover {
     background: #E7E7E7;
   }
   .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
@@ -45,3 +45,28 @@ body {
     margin-top: -30px;
   }
   /* END HEADER */
+
+  /* HOMEPAGE */
+.container #chicken-tiles{
+  background-color: #61122f;
+}
+.row {
+  width: 100%;
+  margin: 0 auto 0;
+}
+#menu-title {
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-family: 'Lora', serif;
+  font-size: 1.8em;
+}
+#chicken span {
+  color: white;
+}
+#chicken-tiles h3 {
+  color: #E7E7E7;
+  font-weight: bold;
+  font-family: 'Lora', serif;
+  font-size: 1.5em;
+}
+  /* END HOMEPAGE */
